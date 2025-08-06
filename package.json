@@ -1,5 +1,5 @@
 {
-  "name": "dropdown-menu",
+  "name": "image-carousel",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juturusumanth23/dropdown-menu.git"
+    "url": "git+https://github.com/juturusumanth23/image-carousel.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/juturusumanth23/dropdown-menu/issues"
+    "url": "https://github.com/juturusumanth23/image-carousel/issues"
   },
-  "homepage": "https://github.com/juturusumanth23/dropdown-menu#readme",
+  "homepage": "https://github.com/juturusumanth23/image-carousel#readme",
   "devDependencies": {
     "css-loader": "^7.1.2",
     "csv-loader": "^3.0.5",

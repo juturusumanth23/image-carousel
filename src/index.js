@@ -1,9 +1,16 @@
 import "./styles.css";
-import odinImage from "./odin.png";
 
-const image = document.createElement("img");
-image.src = odinImage;
+const images = document.querySelectorAll("img");
+const slider = document.querySelector(".slider");
+const container = document.querySelector(".container");
 
-document.body.appendChild(image);
+let count = 0;
+const intervalId = setInterval(slideShow, 1000);
 
-console.log("Hello Todo-list");
+function slideShow() {
+  count++;
+  if (count == 8) {
+    clearInterval(intervalId);
+  }
+  slider.style.left = `${-500 * count}px`;
+}
