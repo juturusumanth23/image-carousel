@@ -15,22 +15,36 @@ body {
   width: 500px;
   height: 500px;
   margin: auto;
-  display: flex;
-  align-items: center;
-  position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
 }
 .slider {
   background-color: aquamarine;
   height: 300px;
+  width: 4500px;
   padding: 0 50px;
   display: flex;
   gap: 100px;
   position: relative;
-  overflow: clip;
-  left: 0;
 }
 
 img {
   width: 400px;
+}
+
+.dots {
+  height: 25px;
+  background-color: aquamarine;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.dot {
+  background-color: black;
+  width: 25px;
+  border-radius: 50%;
 }
